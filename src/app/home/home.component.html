@@ -1,0 +1,78 @@
+<div class="container-fluid">
+  <div class="jumbotron text-right">
+    <!-- <h1>
+      <img class="logo" src="assets/ngx-rocket-logo.png" alt="angular logo"/>
+      <span translate>Hello world !</span>
+    </h1> -->
+    <h1 class="header">{{this.title}}</h1>
+    <div class="summary">
+      <h2>
+        <p id="totalApproved">
+
+        </p>
+        <p id="totalArrived">
+
+        </p>
+        <p id="totalPercentage">
+
+        </p>
+      </h2>
+    </div>
+    <!-- <div class="search">
+      <label for="tbxSearch">חיפוש לפי שם/טלפון/שולחן</label>
+      <input id="tbxSearch" type="text" />
+    </div> -->
+    <div class="eventTablesDiv" ></div>
+
+
+
+    <!-- <app-table></app-table> -->
+
+
+
+
+    <!-- <br/>
+    <br/>
+    <br/> ///////////////////////////////////////////
+    <div>
+      <div class="exp"></div>
+      <label for="tbxSearch">חיפוש לפי שם/טלפון/שולחן</label>
+      <input id="tbxSearch" type="text" />
+    </div>
+    <div>
+      <label>שם החתן : יוסי חפר</label>
+      <br/>
+      <label>שם הכלה : חני לוי</label>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <pre><span>שולחן 1</span>
+כמות שאישרו : 12
+כמות שהגיעו בפועל: 6
+    אחוז תפוסה : 50%
+</pre>
+        </li>
+        <li>
+          <pre><span>שולחן 2</span>
+        כמות שאישרו : 12
+  כמות שהגיעו בפועל: 6
+      אחוז תפוסה : 50%
+  </pre>
+        </li>
+        <li>שולחן 3</li>
+        <li>שולחן 4</li>
+        <li>שולחן 5</li>
+        <li>שולחן 6</li>
+      </ul>
+    </div>
+    <div>
+      <pre>  סך הכל אישרו הגעה: 350
+      סך הכל הגיעו בפועל: 280
+      תפוסה כוללת: 67%
+    </pre>
+    </div>
+    <app-loader [isLoading]="isLoading"></app-loader>
+    <!-- <q [hidden]="isLoading">{{quote}}</q> -->
+  </div>
+</div>

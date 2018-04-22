@@ -1,0 +1,53 @@
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+h1 { 
+  color: #000000; 
+  font-family: 'Lato', sans-serif;
+  font-size: 38px; 
+  font-weight: 600;
+  line-height: 58px; 
+  margin: 0 0 58px; 
+  text-align: center
+}
+h2{
+color: #006631; 
+font-family: 'Lato', sans-serif;
+font-size: 32px; 
+font-weight: 300;
+line-height: 42px; 
+margin: 0 0 42px; 
+text-align: center
+}
+
+
+.logo {
+  width: 100px;
+}
+.header{
+  margin-bottom: 38px;
+}
+.summary
+{
+  // border: 5px solid rgba(0,0,0,0.85);
+  // padding: 10px;
+  // color: white;
+  // background: orange;
+  // flex: 1;
+  // margin-right: 10px;
+  // text-shadow: 1px 1px 1px black;
+}
+.search
+{
+}
+
+.eventTables{
+}
+

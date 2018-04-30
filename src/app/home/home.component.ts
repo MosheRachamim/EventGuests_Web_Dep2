@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
         $(".header").html(this.title + "&rlm;");// "&#x200F")
         $("#totalApproved").html("סך הכל אישרו הגעה : " + this.tableStatsResult.overallStats[0].approved)
         $("#totalArrived").html("סך הכל הגיעו בפועל : " + this.tableStatsResult.overallStats[0].arrived)
-        $("#totalPercentage").html("אחוז הגעה : " + Math.round(this.tableStatsResult.overallStats[0].percentage * 100) / 100 + "%");
+        $("#totalPercentage").html("אחוז הגעה : " + Math.round(this.tableStatsResult.overallStats[0].percentage ) + "%");
         // var allTablesStats = this.tableStatsResult.tableStats;
         // allTablesStats.forEach((element: any) => {
         //   //console.log(element.table_number);
@@ -149,7 +149,7 @@ export class HomeComponent implements OnInit {
           //custom formatting:
           if (j == 3) {
             var val = myBooks[i][col[j]];
-            tabCell.innerHTML = String(Math.round(val * 100) / 100) + " %";
+            tabCell.innerHTML = String(Math.round(val ) ) + " %";
           }
         }
 
